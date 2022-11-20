@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+li,
+ul,
+ol,
+blockquote,
+pre,
+code,
+input,
+textarea,
+select,
+nav,
+footer,
+header,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    text-align: center;
+  }
+
+h3 {
+    text-align: center;
+}
+main {
+    
+
+}
+
+
+
+#personajes {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+  }
+
+  .cartas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+    box-shadow: 0 7px 10px rgba(100, 100, 100, 0.5);
+  }
+
+  .nombre {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 20em) {
+    #personajes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  }
+  @media (min-width: 40em) {
+    #personajes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  
+  }
+  @media (min-width: 60em) {
+    #personajes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 30px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  
+  }
